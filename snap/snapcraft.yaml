@@ -1,5 +1,5 @@
 name: mapcrafter
-version: 'v2.3.1-snap-alpha'
+version: 'v2.3.1-snap-alpha-bjarno'
 summary: High-performance Minecraft map renderer.
 description: |
   High-performance Minecraft map renderer.
@@ -43,7 +43,7 @@ parts:
   mapcrafter:
     # See 'snapcraft plugins'
     plugin: cmake
-    source: https://github.com/mapcrafter/mapcrafter
+    source: https://github.com/Bjarno/mapcrafter
     source-type: git
     source-tag: master
     build-packages: 
